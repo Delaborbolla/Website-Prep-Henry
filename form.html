@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <h1>Enviar su formulario</h1>
+    <div>
+
+        <form action="https://formsubmit.co/jimena.delaborbolla@gmail.com" method="POST">
+
+            <label for="nombre"> Nombre completo:</label>
+            <input type="text" name="nombre" value="" />
+            <br>
+
+            <label for="email"> Correo electronico:</label>
+            <input type="email" name="email" value="" />
+            <br>
+
+            <label for="Genero"> Género</label>
+            <input type="radio" name="genero" id="femenino" value="f" />
+            <label for="Femenino"> Femenino</label>
+            <input type="radio" name="genero" id="masculino" value="m" />
+            <label for="Masculno">Masculino </label>
+            <br>
+
+            <label for="subject"> Asunto:</label>
+            <input type="text" name="subject" id="subject"><br>
+
+            <label for="mensaje"> Mensaje:</label>
+            <textarea name="mensaje" id="mensaje" rows="5" cols="30"></textarea>
+            <br>
+
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Borrar" />
+
+        </form>
+    </div>
+</body>
+
+</html>
